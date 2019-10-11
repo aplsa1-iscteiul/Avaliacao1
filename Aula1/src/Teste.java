@@ -12,10 +12,15 @@ public class Teste {
 	}
 	
 	public void resultado(){
-		if (this.valores >= notaMinima)
+		if (this.valores >= notaMinima){
 			aprovado = true;
-		else 
+		System.out.println("Aluno reprovado");
+		}
+		else {
 			aprovado = false;
+			System.out.println("Aluno provado");
+		}
 	}
+	
 
 }
